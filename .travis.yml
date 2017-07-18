@@ -12,7 +12,7 @@ env:
 before_install:
   - rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm &&
     git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION
-  - npm install -g grunt-cli bower xo
+  - npm install -g grunt-cli bower
   - npm install --quiet
   - bower install
 
@@ -22,7 +22,7 @@ install:
   - pip install --upgrade babel mako crowdin-cli-py
 
 script:
-  - xo && tox -v --recreate
+  - npm test && tox -v --recreate
 
 cache:
   directories:
