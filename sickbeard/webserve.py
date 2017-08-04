@@ -36,8 +36,6 @@ import adba
 import markdown2
 import six
 from dateutil import tz
-from libtrakt import TraktAPI
-from libtrakt.exceptions import TraktException
 from mako.exceptions import RichTraceback
 from mako.lookup import TemplateLookup
 from mako.runtime import UNDEFINED
@@ -68,6 +66,8 @@ from sickbeard.scene_numbering import (get_scene_absolute_numbering, get_scene_a
 from sickbeard.traktTrending import trakt_trending
 from sickbeard.versionChecker import CheckVersion
 from sickbeard.webapi import function_mapper
+from sickrage.custom.libtrakt import TraktAPI
+from sickrage.custom.libtrakt.exceptions import TraktException
 from sickrage.helper import episode_num, sanitize_filename, setup_github, try_int
 from sickrage.helper.common import pretty_file_size
 from sickrage.helper.encoding import ek, ss
