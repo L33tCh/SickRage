@@ -71,7 +71,7 @@ git+https://github.com/twilio/twilio-python.git@f91e1a9e6f4e0a60589b2b90cb66b89b
 tzlocal==1.4
 Unidecode==0.04.20
 urllib3==1.21.1
-validators==0.10
+validators==0.34.0
 webencodings==0.5.1
 win-inet-pton==1.0.1  # Required on Windows systems
 xmltodict==0.11.0
