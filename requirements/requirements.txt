@@ -68,7 +68,7 @@ tornado==4.5.1  # [NOTE] Contains a `routes.py` file, which is not a part of the
 tus.py==1.2.0
 #! tvdb_api==1.9  # <Heavily Modified> Deprecated API, will be disabled by October 1st, 2017
 git+https://github.com/twilio/twilio-python.git@f91e1a9e6f4e0a60589b2b90cb66b89b879b9c3e#egg=twilio
-tzlocal==1.4
+tzlocal==5.3.1
 Unidecode==0.04.20
 urllib3==1.21.1
 validators==0.10
