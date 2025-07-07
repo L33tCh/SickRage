@@ -35,7 +35,7 @@ Mako==1.0.6
 markdown2==2.3.4
 MarkupSafe==1.0
 ndg-httpsclient==0.3.3
-oauthlib==2.0.2
+oauthlib==3.3.1
 git+https://github.com/pygobject/pgi.git@38f834902247a5851cb4c72ba018f160ae26d612#egg=pgi; platform_system!="Windows"
 #! pkg_resources.py  # Copied from setuptools and looks to be modified. Maybe we don't really need this? Used to load the egg files for pymediainfo and pytz.
 profilehooks==1.5
